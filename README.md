@@ -21,8 +21,9 @@ This repository is an installation and operating guide. It does not contain the 
 | Linux debugger | GDB | Linux user-mode debugging | Primary for Linux targets |
 | Network | [Wireshark](https://www.wireshark.org/), [mitmproxy](https://mitmproxy.org/) | Packet and HTTP(S) analysis | Primary |
 | Electron / web | Node.js, [Playwright](https://playwright.dev/), Chromium DevTools, ASAR tooling | Bundle inspection and behavior testing | Primary |
-| Android | JADX, Apktool, ADB, Frida | APK/DEX/resources/runtime | Primary |
-| iOS | Ghidra, archive/Mach-O inspection, libimobiledevice/Frida where supported | Static analysis and limited device workflows | Partial; see limitations |
+| HarmonyOS NEXT | [ReArk](https://github.com/lkimuk/ReArk) | Primary |
+| Android | [ReArk](https://github.com/lkimuk/ReArk), JADX, Apktool, ADB, Frida | APK/DEX/resources/runtime | Primary |
+| iOS | [ReArk](https://github.com/lkimuk/ReArk), Ghidra, archive/Mach-O inspection, libimobiledevice/Frida where supported | Static analysis and limited device workflows | Partial; see limitations |
 | .NET | [ILSpy](https://github.com/icsharpcode/ILSpy) / `ilspycmd` | Assembly inspection and decompilation | Primary |
 | Java | [CFR](https://github.com/leibnitz27/cfr) | JVM bytecode decompilation | Primary |
 | Symbolic execution | [angr](https://github.com/angr/angr) | Selected path/constraint analysis | Optional advanced |
