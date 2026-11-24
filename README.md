@@ -20,6 +20,7 @@ This repository is an installation and operating guide. It does not contain the 
 | Windows debugger | [x64dbg](https://github.com/x64dbg/x64dbg) | Windows user-mode debugging | Primary for Windows targets |
 | Linux debugger | GDB | Linux user-mode debugging | Primary for Linux targets |
 | Network | [Wireshark](https://www.wireshark.org/), [mitmproxy](https://mitmproxy.org/) | Packet and HTTP(S) analysis | Primary |
+| JavaScript | [ReStringer+](github.com/ctrl-escp/restringer), [WebCrack](https://github.com/j4k0xb/webcrack), [WakaruJS](https://github.com/pionxzh/wakaru) | Deobfuscation tools for JS files | Primary | 
 | Electron / web | Node.js, [Playwright](https://playwright.dev/), Chromium DevTools, ASAR tooling | Bundle inspection and behavior testing | Primary |
 | HarmonyOS NEXT | [ReArk](https://github.com/lkimuk/ReArk) | AI-assisted analysis tool | Primary |
 | Android | [ReArk](https://github.com/lkimuk/ReArk), JADX, Apktool, ADB, Frida | APK/DEX/resources/runtime | Primary |
